@@ -56,7 +56,7 @@ export default function UserList() {
         <Link className='link'>
           <div className='userListUser'>
             <img src={params.row.avatar} alt="" className='userListImg' />
-            {params.row.userName}
+            {params.row.username}
           </div>
         </Link>
       )

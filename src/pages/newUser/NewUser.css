@@ -1,0 +1,28 @@
+.userForm{
+    flex:4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.userInput{
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.userInput:focus{
+    outline: none;
+}
+.userSubmitBtn{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
